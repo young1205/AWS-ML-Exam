@@ -1,0 +1,32 @@
+\documentclass{article}
+\usepackage{booktabs,siunitx}
+\usepackage{tabulary}
+\usepackage{blindtext}
+\usepackage{geometry}
+ \geometry{
+ a4paper,
+ total={170mm,257mm},
+ left=-20mm,
+ top=20mm,
+ }
+\begin{document}
+	\section{First example}
+	\begin{table}[htbp]
+		\caption{Comparison of ML Model Performance Metrics}
+		\label{tab:model_comparison}
+		\begin{tabulary}{0.9\linewidth}{LLLL}
+			\toprule
+			Name & Definition & Notes & Catagory \\
+			\midrule
+			Amazon Rekognition & Amazon Rekognition is a cloud-based service by AWS that analyzes images and videos using deep learning.It identifies objects, people, text, and activities, and can detect facial features and emotions. Its widely used for security, content moderation, and enhancing user experiences through easy API integration. &  &  \\
+			\midrule
+			Amazon Textract & Amazon Textract is a machine learning service from AWS that automatically extracts text and data from scanned documents. It goes beyond simple optical character recognition (OCR) by understanding the layout and structure of documents, enabling users to retrieve key information from forms, tables, and other content. Textract is useful for automating data entry, document analysis, and improving workflows in various applications. &  &  \\
+			\midrule
+			Amazon Transcribe & Amazon Transcribe is a speech-to-text service from AWS that converts audio and video files into written text. It uses advanced machine learning to accurately transcribe conversations, including support for multiple speakers and specialized vocabulary. Transcribe is ideal for applications like customer service, content creation, and accessibility, making it easier to analyze and search audio content. &  &  \\
+			\bottomrule
+		\end{tabulary}
+	\end{table}
+
+
+	\section{Second example}
+\end{document}
