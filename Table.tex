@@ -1,10 +1,12 @@
 \documentclass[11pt,paper=a4]{scrbook}
 \usepackage{longtable} % for 'longtable' environment
 \usepackage{pdflscape} % for 'landscape' environment
+\usepackage[margin=7mm]{geometry}
+
 \begin{document}
 \begin{landscape}
 \small
-\begin{longtable}{ | p{0.1\linewidth} | p{.7\linewidth}|p{0.2\linewidth}}
+\begin{longtable}{ | p{0.07\linewidth} | p{.7\linewidth}|p{0.2\linewidth}}
 %\hline\endhead  % header material
 %\hline\endfoot  % footer material
 \hline\endhead 
@@ -16,19 +18,23 @@ activity recognition, content moderation, and real-time video processing through
 applications for security, marketing, and automation. &  Uses = Image classification, object detection, detection of text in image, facial recognition,
 sentiment, and public saftey
  \\
+ \hline
 Amazon Textract & Amazon Textract is a fully managed machine learning service that uses deep learning models to extract text, forms, 
 and tables from scanned documents. It applies Optical Character Recognition (OCR) in conjunction with Natural Language Processing 
 (NLP) to analyze document layouts, identify key-value pairs, and detect structured data. Textract can process both printed and 
 handwritten text, enabling automated document processing workflows with high accuracy and scalability. &  \\
+\hline
 Amazon Transcribe & Amazon Transcribe is a fully managed automatic speech recognition (ASR) service that converts spoken language into text. 
 It uses deep learning models to transcribe audio from various sources (e.g., calls, meetings) in real-time or batch mode, 
 supporting multiple languages, speaker identification, and custom vocabulary for enhanced accuracy. The service also offers features 
 like punctuation, timestamps, and sentiment analysis for more context-rich transcriptions. &  \\
+\hline
 Amazon Translate & Amazon Translate is a neural machine translation (NMT) service that leverages advanced deep learning models, including 
 transformer-based architectures, to provide high-quality automatic translation of text. It supports real-time and batch 
 translation, enabling dynamic language pairings and context-aware translation. The service allows customization through user-defined 
 terminology and domain-specific vocabularies, optimizing translation accuracy. Amazon Translate scales horizontally, integrating easily 
 into applications and workflows with APIs for both structured and unstructured text processing. &  \\
+\hline
 Amazon Polly & Amazon Polly is a neural text-to-speech (TTS) service that uses deep learning models to convert text into natural-sounding speech. 
 It offers a wide selection of languages and voices, with features like real-time streaming, SSML support, and customizable speech 
 parameters for integration into applications, devices, and services. &  \\
@@ -36,6 +42,7 @@ Amazon Lex & Amazon Lex is a fully managed service for building conversational i
 and automatic speech recognition (ASR). It enables the creation of chatbots and voice applications by processing text and speech 
 inputs to understand user intent. Lex leverages deep learning models to handle context, slot management, and multi-turn 
 conversations, with seamless integration into AWS services like Lambda, S3, and DynamoDB for enhanced functionality. &  \\
+\hline
 Amazon Kendra & Amazon Kendra is an AI-driven enterprise search service that uses advanced natural language processing (NLP) and deep 
 learning techniques to deliver contextually relevant search results. It indexes structured and unstructured data from multiple 
 sources (e.g., SharePoint, Salesforce, S3, and databases) and applies query understanding, semantic search, and entity recognition 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.12)  6 OCT 2024 11:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.12)  6 OCT 2024 12:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -185,52 +185,71 @@ File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 )))
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
+(/usr/local/texlive/2024/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count269
+\Gm@cntv=\count270
+\c@Gm@tempcnt=\count271
+\Gm@bindingoffset=\dimen142
+\Gm@wd@mp=\dimen143
+\Gm@odd@mp=\dimen144
+\Gm@even@mp=\dimen145
+\Gm@layoutwidth=\dimen146
+\Gm@layoutheight=\dimen147
+\Gm@layouthoffset=\dimen148
+\Gm@layoutvoffset=\dimen149
+\Gm@dimlist=\toks19
+)
 (/usr/local/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count269
+\l__color_backend_stack_int=\count272
 \l__pdf_internal_box=\box58
 )
 (./Table.aux)
 \openout1 = `Table.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-Package scrbase Info: activating english \partname on input line 4.
-Package scrbase Info: activating english \chaptername on input line 4.
-Package scrbase Info: activating english \appendixname on input line 4.
-Package scrbase Info: activating english \figurename on input line 4.
-Package scrbase Info: activating english \tablename on input line 4.
-Package scrbase Info: activating english \contentsname on input line 4.
-Package scrbase Info: activating english \listfigurename on input line 4.
-Package scrbase Info: activating english \listtablename on input line 4.
-Package scrbase Info: activating english \bibname on input line 4.
-Package scrbase Info: activating english \indexname on input line 4.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+Package scrbase Info: activating english \partname on input line 6.
+Package scrbase Info: activating english \chaptername on input line 6.
+Package scrbase Info: activating english \appendixname on input line 6.
+Package scrbase Info: activating english \figurename on input line 6.
+Package scrbase Info: activating english \tablename on input line 6.
+Package scrbase Info: activating english \contentsname on input line 6.
+Package scrbase Info: activating english \listfigurename on input line 6.
+Package scrbase Info: activating english \listtablename on input line 6.
+Package scrbase Info: activating english \bibname on input line 6.
+Package scrbase Info: activating english \indexname on input line 6.
 
 (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count270
-\scratchdimen=\dimen142
+\scratchcounter=\count273
+\scratchdimen=\dimen150
 \scratchbox=\box59
-\nofMPsegments=\count271
-\nofMParguments=\count272
-\everyMPshowfont=\toks19
-\MPscratchCnt=\count273
-\MPscratchDim=\dimen143
-\MPnumerator=\count274
-\makeMPintoPDFobject=\count275
-\everyMPtoPDFconversion=\toks20
+\nofMPsegments=\count274
+\nofMParguments=\count275
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count276
+\MPscratchDim=\dimen151
+\MPnumerator=\count277
+\makeMPintoPDFobject=\count278
+\everyMPtoPDFconversion=\toks21
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -240,22 +259,57 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Overfull \hbox (35.99998pt too wide) in alignment at lines 7--10
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(19.91692pt, 557.6741pt, 19.91692pt)
+* v-part:(T,H,B)=(19.91692pt, 805.2131pt, 19.91692pt)
+* \paperwidth=597.50793pt
+* \paperheight=845.04694pt
+* \textwidth=557.6741pt
+* \textheight=805.2131pt
+* \oddsidemargin=-52.35307pt
+* \evensidemargin=-52.35307pt
+* \topmargin=-89.75308pt
+* \headheight=17.0pt
+* \headsep=20.40001pt
+* \topskip=11.0pt
+* \footskip=47.6pt
+* \marginparwidth=89.62619pt
+* \marginparsep=12.8401pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+Overfull \hbox (19.89229pt too wide) in alignment at lines 9--12
  [] [] [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 13--13
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
 []|\OT1/cmr/m/n/10 Amazon
  []
 
 
-Underfull \hbox (badness 2158) in paragraph at lines 16--19
-[]|\OT1/cmr/m/n/10 Uses = Im-age clas-si-fi-ca-
+Underfull \hbox (badness 1552) in paragraph at lines 18--21
+\OT1/cmr/m/n/10 age, fa-cial recog-ni-tion, sen-ti-ment,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
+Underfull \hbox (badness 10000) in paragraph at lines 22--22
 []|\OT1/cmr/m/n/10 Amazon
  []
 
@@ -270,12 +324,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 32--32
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--39
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
 []|\OT1/cmr/m/n/10 Amazon
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 51--51
+Underfull \hbox (badness 10000) in paragraph at lines 46--46
 []|\OT1/cmr/m/n/10 Amazon
  []
 
@@ -285,7 +339,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 58--58
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--64
+Underfull \hbox (badness 10000) in paragraph at lines 65--65
+[]|\OT1/cmr/m/n/10 Amazon
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--71
 []|\OT1/cmr/m/n/10 Amazon
  []
 
@@ -295,34 +354,52 @@ Underfull \hbox (badness 10000) in paragraph at lines 78--78
  []
 
 
-Overfull \hbox (35.99998pt too wide) in alignment at lines 10--96
+Underfull \hbox (badness 10000) in paragraph at lines 78--78
+\OT1/cmr/m/n/10 Aug-mented
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--85
+[]|\OT1/cmr/m/n/10 Amazon
+ []
+
+
+Overfull \hbox (11.84457pt too wide) in alignment at lines 12--103
  [] [] [] 
  []
+
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table 1 on input line 103.
 
 [1
 
 
 {/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-[2] [3] [4] (./Table.aux)
+[2]
+
+Package longtable Warning: Table widths have changed. Rerun LaTeX.
+
+(./Table.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 4469 strings out of 474116
- 97806 string characters out of 5743682
- 1958187 words of memory out of 5000000
- 26839 multiletter control sequences out of 15000+600000
+ 4946 strings out of 474116
+ 105163 string characters out of 5743682
+ 1957187 words of memory out of 5000000
+ 27311 multiletter control sequences out of 15000+600000
  558722 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,8n,107p,10952b,349s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,8n,107p,10952b,381s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
 
-Output written on Table.pdf (4 pages, 33960 bytes).
+Output written on Table.pdf (2 pages, 32715 bytes).
 PDF statistics:
- 22 PDF objects out of 1000 (max. 8388607)
- 13 compressed objects within 1 object stream
+ 16 PDF objects out of 1000 (max. 8388607)
+ 9 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
