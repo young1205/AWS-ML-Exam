@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.12)  8 OCT 2024 12:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.12)  23 OCT 2024 21:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**Table.tex
-(./Table.tex
+**myfile.tex
+(./myfile.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
 (/usr/local/texlive/2024/texmf-dist/tex/latex/koma-script/scrbook.cls
@@ -209,8 +209,8 @@ File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count272
 \l__pdf_internal_box=\box58
 )
-(./Table.aux)
-\openout1 = `Table.aux'.
+(./myfile.aux)
+\openout1 = `myfile.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
@@ -294,107 +294,370 @@ e
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Overfull \hbox (19.27043pt too wide) in alignment at lines 9--12
- [] [] [] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--15
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
 []|\OT1/cmr/m/n/10 Amazon
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 18--21
-[]|\OT1/cmr/m/n/10 Uses = Im-age
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
+[]|\OT1/cmr/m/n/10 Analytics-
  []
 
 
-Underfull \hbox (badness 6859) in paragraph at lines 18--21
-\OT1/cmr/m/n/10 clas-si-fi-ca-tion, ob-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 18--21
-\OT1/cmr/m/n/10 ject de-tec-tion,
- []
-
-
-Underfull \hbox (badness 3668) in paragraph at lines 18--21
-\OT1/cmr/m/n/10 ni-tion, sen-ti-ment,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 22--22
+Underfull \hbox (badness 10000) in paragraph at lines 33--33
 []|\OT1/cmr/m/n/10 Amazon
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 48--48
+Underfull \hbox (badness 10000) in paragraph at lines 33--33
+\OT1/cmr/m/n/10 Data Fire-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
+[]|\OT1/cmr/m/n/10 Analytics-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--40
 []|\OT1/cmr/m/n/10 Amazon
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 53--53
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
+[]|\OT1/cmr/m/n/10 Analytics-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--47
 []|\OT1/cmr/m/n/10 Amazon
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--59
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
+[]|\OT1/cmr/m/n/10 Analytics-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--73
+[]|\OT1/cmr/m/n/10 Analytics-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
 []|\OT1/cmr/m/n/10 Amazon
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--66
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
+[]|\OT1/cmr/m/n/10 Analytics-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+[]|\OT1/cmr/m/n/10 AWS Lake
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
+[]|\OT1/cmr/m/n/10 Analytics-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 86--86
 []|\OT1/cmr/m/n/10 Amazon
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--72
+Underfull \hbox (badness 10000) in paragraph at lines 86--86
+\OT1/cmr/m/n/10 Man-aged
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 86--86
+\OT1/cmr/m/n/10 Ser-vice for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 86--86
+\OT1/cmr/m/n/10 Apache
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--92
+[]|\OT1/cmr/m/n/10 Analytics-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
 []|\OT1/cmr/m/n/10 Amazon
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--78
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+\OT1/cmr/m/n/10 OpenSearch
+ []
+
+
+Underfull \hbox (badness 1960) in paragraph at lines 92--96
+[]|\OT1/cmr/m/n/10 Amazon OpenSearch Ser-vice is a fully man-aged ser-vice for 
+run-ning
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--97
+[]|\OT1/cmr/m/n/10 Analytics-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--97
 []|\OT1/cmr/m/n/10 Amazon
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 85--85
+Underfull \hbox (badness 10000) in paragraph at lines 101--102
+[]|\OT1/cmr/m/n/10 Analytics-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--107
+[]|\OT1/cmr/m/n/10 Compute-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
 []|\OT1/cmr/m/n/10 Amazon
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
+Underfull \hbox (badness 10000) in paragraph at lines 113--114
+[]|\OT1/cmr/m/n/10 Compute-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--114
+[]|\OT1/cmr/m/n/10 AWS
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--119
+[]|\OT1/cmr/m/n/10 Compute-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--119
 []|\OT1/cmr/m/n/10 Amazon
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--98
+Underfull \hbox (badness 10000) in paragraph at lines 119--119
+\OT1/cmr/m/n/10 Elas-tic
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--119
+\OT1/cmr/m/n/10 Con-tainer
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--119
+\OT1/cmr/m/n/10 Reg-istry
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--125
+[]|\OT1/cmr/m/n/10 Containers-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
 []|\OT1/cmr/m/n/10 Amazon
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--98
-\OT1/cmr/m/n/10 Aug-mented
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
+\OT1/cmr/m/n/10 Elas-tic
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--105
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
+\OT1/cmr/m/n/10 Con-tainer
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
+\OT1/cmr/m/n/10 Ser-vice
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
+[]|\OT1/cmr/m/n/10 Containers-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
 []|\OT1/cmr/m/n/10 Amazon
  []
 
 
-Package longtable Warning: Column widths have changed
-(longtable)                in table 1 on input line 123.
+Underfull \hbox (badness 4967) in paragraph at lines 131--131
+\OT1/cmr/m/n/10 Elas-tic Ku-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
+\OT1/cmr/m/n/10 ber-netes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
+\OT1/cmr/m/n/10 Ser-vice
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--137
+[]|\OT1/cmr/m/n/10 Containers-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--137
+[]|\OT1/cmr/m/n/10 AWS Far-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--144
+[]|\OT1/cmr/m/n/10 Containers-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--144
+[]|\OT1/cmr/m/n/10 Amazon
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--154
+[]|\OT1/cmr/m/n/10 Database-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
+[]|\OT1/cmr/m/n/10 AWS IoT
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--160
+[]|\OT1/cmr/m/n/10 InternetOfThings-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 160--160
+[]|\OT1/cmr/m/n/10 Amazon
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--166
+[]|\OT1/cmr/m/n/10 MachineLearning-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
+[]|\OT1/cmr/m/n/10 Amazon
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 170--171
+[]|\OT1/cmr/m/n/10 MachineLearning-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 171--171
+[]|\OT1/cmr/m/n/10 AWS Deep
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 171--171
+\OT1/cmr/m/n/10 Learn-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 171--171
+\OT1/cmr/m/n/10 ing AMIs
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 176--177
+[]|\OT1/cmr/m/n/10 MachineLearning-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 177--177
+[]|\OT1/cmr/m/n/10 Amazon
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--184
+[]|\OT1/cmr/m/n/10 MachineLearning-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 184--184
+[]|\OT1/cmr/m/n/10 Amazon
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 184--184
+\OT1/cmr/m/n/10 Fraud De-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 190--191
+[]|\OT1/cmr/m/n/10 MachineLearning-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--197
+[]|\OT1/cmr/m/n/10 MachineLearning-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--197
+[]|\OT1/cmr/m/n/10 Amazon
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--204
+[]|\OT1/cmr/m/n/10 MachineLearning-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 204--204
+[]|\OT1/cmr/m/n/10 Amazon
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 204--204
+\OT1/cmr/m/n/10 Me-chan-i-cal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 210--211
+[]|\OT1/cmr/m/n/10 MachineLearning-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 211--211
+[]|\OT1/cmr/m/n/10 Amazon
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 216--217
+[]|\OT1/cmr/m/n/10 MachineLearning-
+ []
 
 [1
 
 {/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-[2]
-
-Package longtable Warning: Table widths have changed. Rerun LaTeX.
-
-[3] (./Table.aux)
+[2] [3] [4] (./myfile.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -402,18 +665,18 @@ L3 programming layer <2024-02-20>
  ) 
 Here is how much of TeX's memory you used:
  4944 strings out of 474116
- 105101 string characters out of 5743682
- 1965187 words of memory out of 5000000
+ 105113 string characters out of 5743682
+ 1995187 words of memory out of 5000000
  27309 multiletter control sequences out of 15000+600000
  558722 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,8n,107p,10952b,316s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,8n,107p,10953b,284s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
 
-Output written on Table.pdf (3 pages, 34344 bytes).
+Output written on myfile.pdf (4 pages, 42027 bytes).
 PDF statistics:
- 19 PDF objects out of 1000 (max. 8388607)
- 11 compressed objects within 1 object stream
+ 22 PDF objects out of 1000 (max. 8388607)
+ 13 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

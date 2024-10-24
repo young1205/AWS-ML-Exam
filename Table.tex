@@ -4,9 +4,9 @@
 \usepackage[margin=7mm]{geometry}
 
 \begin{document}
-\begin{landscape}
+%\begin{landscape}
 \small
-\begin{longtable}{ | p{0.07\linewidth} | p{.7\linewidth}|p{0.2\linewidth}}
+\begin{longtable}{ | p{0.1\linewidth} | p{.6\linewidth}|p{0.15\linewidth}}
 %\hline\endhead  % header material
 %\hline\endfoot  % footer material
 \hline\endhead 
@@ -19,11 +19,32 @@ applications for security, marketing, and automation. &  Uses = Image classifica
 sentiment, and public saftey
  \\
  \hline
-Amazon Textract & Amazon Textract is a fully managed machine learning service that uses deep learning models to extract text, forms, 
-and tables from scanned documents. It applies Optical Character Recognition (OCR) in conjunction with Natural Language Processing 
-(NLP) to analyze document layouts, identify key-value pairs, and detect structured data. Textract can process both printed and 
-handwritten text, enabling automated document processing workflows with high accuracy and scalability. &  \\
-\hline
+Amazon Textract & Amazon Textract is a fully managed machine learning service that automates the extraction of text, forms, and tables from scanned documents. It leverages advanced optical character recognition (OCR) and machine learning models to provide not just text extraction but also semantic understanding of document layouts.
+
+Technical Features:
+
+- Advanced OCR: Utilizes deep learning algorithms for high-accuracy text extraction, including support for printed text, handwriting, and various fonts.
+
+- Structured Output: Produces JSON output that includes detected text, bounding box coordinates, and relationships between elements (e.g., tables, forms), enabling structured data representation.
+
+- Form and Table Extraction: Recognizes complex structures like multi-column layouts, nested tables, and key-value pairs, allowing users to extract specific information efficiently.
+
+- API Integration: Accessible via RESTful APIs, enabling seamless integration into existing applications and workflows. Supports batch processing for large volumes of documents.
+
+- Scalability and Reliability: Built on AWS infrastructure, Textract scales automatically to handle varying workloads with high availability and low latency.
+
+- Security and Compliance: Offers encryption at rest and in transit, alongside AWS Identity and Access Management (IAM) for fine-grained access control.
+
+Use Cases for Machine Learning Engineers:
+
+- Data Preprocessing: Automating the conversion of unstructured data from documents into structured datasets for downstream machine learning tasks.
+
+- Document Classification: Leveraging extracted metadata for training classifiers or improving NLP models that rely on document context.
+
+- Information Retrieval: Enhancing search capabilities by extracting relevant data from historical documents, improving data discoverability.
+
+ &  \\
+ \hline
 Amazon Transcribe & Amazon Transcribe is a fully managed automatic speech recognition (ASR) service that converts spoken language into text. 
 It uses deep learning models to transcribe audio from various sources (e.g., calls, meetings) in real-time or batch mode, 
 supporting multiple languages, speaker identification, and custom vocabulary for enhanced accuracy. The service also offers features 
@@ -42,7 +63,6 @@ Amazon Lex & Amazon Lex is a fully managed service for building conversational i
 and automatic speech recognition (ASR). It enables the creation of chatbots and voice applications by processing text and speech 
 inputs to understand user intent. Lex leverages deep learning models to handle context, slot management, and multi-turn 
 conversations, with seamless integration into AWS services like Lambda, S3, and DynamoDB for enhanced functionality. &  \\
-\hline
 Amazon Kendra & Amazon Kendra is an AI-driven enterprise search service that uses advanced natural language processing (NLP) and deep 
 learning techniques to deliver contextually relevant search results. It indexes structured and unstructured data from multiple 
 sources (e.g., SharePoint, Salesforce, S3, and databases) and applies query understanding, semantic search, and entity recognition 
@@ -101,5 +121,5 @@ Comprehend applies unsupervised learning techniques like Latent Dirichlet Alloca
 identify clusters of related documents or topics within large corpora. &  \\
 \hline
 \end{longtable}
-\end{landscape}
+%\end{landscape}
 \end{document} 

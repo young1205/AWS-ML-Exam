@@ -1,0 +1,219 @@
+\documentclass[11pt,paper=a4]{scrbook}
+\usepackage{longtable} % for 'longtable' environment
+\usepackage{pdflscape} % for 'landscape' environment
+\usepackage[margin=7mm]{geometry}
+
+\begin{document}
+%\begin{landscape}
+\small
+\begin{longtable}{ | p{0.1\linewidth} | p{.6\linewidth}|p{0.15\linewidth}}
+\hline\endhead 
+Name & Definition & Type \\
+\hline
+Amazon Athena & Amazon Athena is a fully managed, serverless query engine that enables SQL-based analysis of 
+structured, semi-structured, and unstructured data stored in Amazon S3. It leverages Presto, an open-source 
+distributed SQL query engine, to perform fast, parallelized queries across large datasets without the need to 
+provision or manage servers. Athena supports a variety of data formats including CSV, JSON, Parquet, ORC, and Avro, 
+and integrates with AWS Glue Data Catalog for schema discovery, metadata management, and partitioning. 
+
+
+
+Athena supports ANSI SQL queries, including joins, complex aggregations, and window functions, and can efficiently query large 
+datasets by leveraging partitioning and columnar formats (like Parquet or ORC) to minimize data scans and reduce query costs. 
+It automatically scales based on query complexity and workload, dynamically optimizing query execution plans. Athena charges 
+based on the amount of data scanned per query, encouraging best practices such as data partitioning and use of columnar 
+formats for cost efficiency. 
+
+
+
+It can also be integrated with AWS services like Lambda, QuickSight, and CloudWatch 
+for extended analytics and automation, making it suitable for real-time log analysis, 
+ad-hoc reporting, and big data workflows. & Analytics-Technology \\
+\hline
+Amazon Data Firehose & Amazon Kinesis Data Firehose is a fully managed, serverless service for streaming data ingestion and 
+delivery. It buffers, compresses (GZIP, Snappy), and encrypts data before delivering it to destinations like Amazon S3,
+Redshift, Elasticsearch, or custom HTTP endpoints. Firehose supports real-time data transformation using AWS Lambda functions, 
+allowing for on-the-fly processing. It automatically scales to handle variable throughput without user intervention, with 
+fine-grained control over buffering and delivery intervals. Firehose is optimized for high-throughput, low-latency streaming 
+use cases and charges based on data volume ingested, processed, and delivered. & Analytics-Technology \\
+\hline
+Amazon EMR & Amazon EMR (Elastic MapReduce) is a cloud-native big data platform that simplifies processing vast 
+amounts of data using open-source tools like Apache Hadoop, Spark, HBase, and Hive. It allows users to quickly deploy, 
+manage, and scale clusters for data analytics, machine learning, and other big data workloads. EMR integrates with other 
+AWS services (e.g., S3, DynamoDB, Redshift) and provides flexibility in cluster configuration and scaling, making it 
+suitable for both batch and real-time processing. It is fully managed, with automated provisioning, scaling, and maintenance, 
+reducing operational complexity and cost. & Analytics-Technology \\
+\hline
+Amazon Glue & AWS Glue is a fully managed extract, transform, and load (ETL) service designed for preparing 
+and transforming data for analytics. It automates data discovery, schema recognition, and job scheduling, 
+simplifying data integration across a variety of sources (e.g., Amazon S3, RDS, Redshift). AWS Glue provides 
+tools like Glue Data Catalog for metadata storage, Glue Crawlers for data discovery, and Glue Studio for visual
+ETL job creation. It supports both serverless and provisioned environments, enabling scalable, cost-efficient 
+data workflows. Glue can be integrated with other AWS services and is optimized for big data processing with Apache Spark. & Analytics-Technology \\
+\hline
+Amazon Kinesis & Amazon Kinesis is a suite of services designed to handle real-time data streaming and processing at scale. 
+It allows you to collect, process, and analyze large amounts of data from various sources like IoT devices, logs, 
+and social media in real time. Kinesis consists of several components:
+
+1. **Kinesis Data Streams**: Captures and stores large streams of data, 
+enabling real-time processing and analytics. Data is ingested in shards, which can be scaled based on throughput needs.
+
+2. **Kinesis Data Firehose**: Automatically loads streaming data into other 
+AWS services like Amazon S3, Redshift, or Elasticsearch for further analysis, 
+without needing custom code.
+
+3. **Kinesis Data Analytics**: Provides real-time SQL querying and analytics on 
+streaming data, enabling users to process data as it arrives and generate actionable insights.
+
+4. **Kinesis Video Streams**: Ingests, stores, and processes video streams for use cases 
+like surveillance, media, and machine learning applications.
+
+Kinesis offers scalability, low-latency processing, and integration with other AWS services, 
+making it a powerful tool for managing real-time data pipelines. & Analytics-Technology \\
+Amazon Kinesis Data Streams & Amazon Kinesis Data Streams is a scalable and durable service for real-time streaming data collection and 
+processing. It allows you to ingest large volumes of data, such as logs, social media feeds, or telemetry data, in real time. 
+The service breaks the data into shards, which are the basic units of capacity and parallelism. You can consume the data 
+using Kinesis Data Streams APIs or integrate with other AWS services like Kinesis Data Analytics and Kinesis Data Firehose 
+for further processing and storage. Kinesis Data Streams offers features like data retention, automatic scaling, and fault 
+tolerance, making it suitable for high-throughput, low-latency streaming applications. & Analytics-Technology \\
+AWS Lake Formation & AWS Lake Formation is a managed service that simplifies building and securing a data lake on
+Amazon S3. It leverages AWS Glue for ETL, metadata cataloging, and schema management. Lake Formation 
+provides fine-grained access control, enabling centralized permissions at the table or column level using
+IAM and KMS integration. It uses the AWS Glue Data Catalog as the central metadata store. Security features 
+include encryption (at rest and in transit), audit logging with CloudTrail, and cross-account data sharing. 
+It integrates natively with analytics services like Athena, Redshift Spectrum, and SageMaker for scalable, 
+secure data processing. & Analytics-Technology \\
+Amazon Managed Service for Apache Flink & Amazon Managed Service for Apache Flink is a fully managed platform for real-time stream and
+batch processing with Apache Flink. It abstracts cluster management, auto-scaling, and fault tolerance, 
+while supporting stateful processing with checkpointing. The service integrates with data sources 
+(e.g., Kinesis, Kafka, S3) and sinks (e.g., Redshift, Elasticsearch). It offers seamless scaling, high 
+availability, and secure execution within a VPC with IAM and encryption support. This service streamlines 
+Flink job deployment and operation, providing simplified management for complex data processing workflows. & Analytics-Technology \\
+Amazon OpenSearch Service & Amazon OpenSearch Service is a fully managed service for running OpenSearch clusters, providing 
+real-time search and analytics on large datasets. It supports full-text search, log analytics, and metrics
+visualization. Key features include auto-scaling, automated backups, fine-grained access control, 
+and encryption (at rest and in transit). It integrates with AWS data sources (e.g., Kinesis, S3) 
+and visualization tools like Kibana, enabling scalable, low-latency search and analytics workloads. & Analytics-Technology \\
+Amazon QuickSight & Amazon QuickSight is a managed BI service for interactive dashboards and data visualizations.
+It integrates with AWS data sources (e.g., S3, RDS, Redshift) and uses the SPICE engine for fast in-memory 
+processing. Features include embedded ML insights (anomaly detection, forecasting), auto-scaling, 
+fine-grained access control, and encryption. QuickSight supports embedding and sharing dashboards, 
+providing scalable and secure BI with minimal infrastructure. & Analytics-Technology \\
+AWS Batch & AWS Batch is a fully managed service for running batch jobs at scale. 
+It dynamically provisions compute resources (EC2, Spot, Fargate) based on job 
+requirements. Key features include job scheduling, prioritized queues, and 
+integration with AWS services (e.g., S3, Lambda, CloudWatch). It optimizes cost 
+and performance, supporting EC2 Spot for cost-effective execution. & Compute-Technology \\
+Amazon EC2 & Amazon EC2 (Elastic Compute Cloud) is a scalable compute service that
+provides resizable virtual machines (instances) on-demand. It supports multiple
+instance types for various workloads, with customizable CPU, memory, storage, and
+networking. EC2 integrates with other AWS services (e.g., S3, VPC, EBS) and supports 
+auto-scaling, load balancing, and security configurations via IAM. It offers flexible 
+pricing models, including On-Demand, Reserved, and Spot Instances, enabling cost 
+optimization based on usage patterns. & Compute-Technology \\
+AWS Lambda & AWS Lambda is a serverless compute service that automatically runs code in response 
+to events without provisioning or managing servers. It supports multiple languages (e.g., Python, 
+Node.js, Java) and integrates with AWS services like S3, DynamoDB, and API Gateway. Lambda automatically
+scales based on incoming requests and charges only for the compute time used. It enables event-driven 
+architectures and offers fine-grained permissions through IAM for security. & Compute-Technology \\
+Amazon Elastic Container Registry (ECR) & Amazon Elastic Container Registry (ECR) is a fully managed Docker container registry 
+that stores, manages, and deploys container images. It integrates with Amazon ECS, EKS, and AWS 
+Lambda, providing secure image storage with encryption at rest (via KMS) and in transit. ECR 
+supports image versioning, lifecycle policies, and fine-grained access control through IAM. 
+It also includes automated image scanning for vulnerabilities and is optimized for high availability
+and scalability. & Containers-Technology \\
+Amazon Elastic Container Service (ECS) & Amazon Elastic Container Service (ECS) is a fully managed container orchestration service
+for running Docker containers at scale. It supports both EC2 and Fargate launch types for compute,
+allowing users to choose between managing their own instances or using serverless compute. ECS integrates
+with other AWS services like IAM, VPC, and CloudWatch for security, networking, and monitoring. 
+It offers features like task definitions, service discovery, and auto-scaling for efficient 
+containerized application management. & Containers-Technology \\
+Amazon Elastic Kubernetes Service (EKS) & Amazon Elastic Kubernetes Service (EKS) is a fully managed service for running Kubernetes 
+clusters on AWS. It automates cluster management tasks such as patching, scaling, and securing 
+the Kubernetes control plane. EKS integrates with AWS services like IAM, VPC, and CloudWatch 
+for security, networking, and monitoring. It supports both EC2 and Fargate compute options for 
+running containerized workloads and offers features like automatic scaling, service discovery, 
+and high availability. & Containers-Technology \\
+AWS Fargate & AWS Fargate is a serverless compute engine for running containers 
+without managing servers or clusters. It integrates with Amazon ECS and EKS, 
+allowing users to run Docker containers with just the application code and 
+resource specifications. Fargate automatically provisions and scales compute
+resources based on workload requirements. It supports fine-grained IAM permissions, 
+integrates with VPC for networking, and provides built-in security features 
+like encryption at rest and in transit. & Containers-Technology \\
+Amazon Redshift & Amazon Redshift is a fully managed, petabyte-scale data warehouse service optimized for 
+OLAP workloads. It uses columnar storage, data compression, and parallel query execution to 
+enable high-performance analytics. Redshift employs massively parallel processing (MPP) 
+to distribute queries across multiple nodes for fast query execution. It supports 
+SQL-based querying with compatibility to PostgreSQL, and integrates with data lakes, 
+AWS Glue, and Amazon S3. Redshift Spectrum allows direct querying of data in S3 
+without loading it into the cluster. The service offers automatic scaling, 
+data encryption (at rest and in transit), and fine-grained access control via IAM. 
+Redshift’s workload management (WLM) helps optimize query performance, and the 
+use of machine learning models enables intelligent query optimization. & Database-Technology \\
+AWS IoT Greengrass & AWS IoT Greengrass is a service that extends AWS IoT capabilities to local devices, 
+enabling edge computing. It allows devices to run AWS Lambda functions, manage data, and interact 
+with local resources (e.g., sensors, actuators) even without a constant internet connection. 
+Greengrass supports secure device communication with AWS, data stream processing, and local 
+data storage. It provides features like over-the-air (OTA) updates, device shadows, and 
+encryption for data at rest and in transit, enabling scalable and reliable IoT applications at the edge. & InternetOfThings-Technology \\
+Amazon Bedrock & Amazon Bedrock is a fully managed service for building and scaling generative AI applications 
+using pre-trained foundation models (FMs) from leading AI providers like Anthropic, Stability AI, and OpenAI. 
+It simplifies integration with FMs for tasks such as natural language processing, image generation, and code 
+completion, offering low-latency inference and customizability through fine-tuning. Bedrock provides an 
+easy-to-use API, secure access with IAM, and scalability, enabling organizations to deploy AI-driven solutions 
+without managing the underlying infrastructure. & MachineLearning-Technology \\
+Amazon Comprehend & Amazon Comprehend is a fully managed natural language processing (NLP) service that uses machine 
+learning to extract insights from text. It supports tasks like sentiment analysis, entity recognition, language 
+detection, and topic modeling. Comprehend offers custom entity recognition and classification models, 
+and integrates with AWS services like S3 and Lambda. It uses advanced deep learning algorithms for real-time 
+text analysis, and provides automatic scaling, with data security through encryption at rest and in transit. & MachineLearning-Technology \\
+AWS Deep Learning AMIs (DLAMI) & AWS Deep Learning AMIs (DLAMI) are pre-configured Amazon Machine Images designed to accelerate 
+deep learning model development. They come with popular frameworks like TensorFlow, PyTorch, and MXNet, 
+as well as NVIDIA CUDA, cuDNN, and other libraries optimized for GPU instances. DLAMIs support both 
+CPU and GPU-based EC2 instances, providing flexibility for training and inference. They also 
+integrate with AWS services like S3, EFS, and SageMaker for data storage and model management.
+DLAMIs enable rapid deployment of custom deep learning workflows while offering security and scalability. & MachineLearning-Technology \\
+Amazon Forecast & Amazon Forecast is a fully managed service that uses machine learning to generate accurate 
+time-series forecasts. It automatically builds, trains, and deploys models by leveraging historical data, 
+providing capabilities like demand forecasting, resource planning, and financial forecasting. Forecast 
+integrates with AWS data sources like S3, RDS, and Redshift and supports custom datasets for enhanced 
+accuracy. It offers built-in anomaly detection, seasonal adjustments, and integrates with other services 
+like SageMaker for advanced model customization. The service automatically scales and handles model 
+optimization, with data security via encryption at rest and in transit. & MachineLearning-Technology \\
+Amazon Fraud Detector & Amazon Fraud Detector is a fully managed service that uses machine learning to detect and 
+prevent fraud in real-time transactions. It automates model creation and training using historical 
+data to identify patterns and anomalies associated with fraudulent activities. The service supports
+custom fraud detection use cases, such as payment fraud, account takeovers, and loyalty fraud, 
+with features like feature engineering, model versioning, and real-time scoring. Fraud Detector 
+integrates with other AWS services like Lambda and S3 for data processing and automated workflows, 
+and ensures security through encryption and access control via IAM. & MachineLearning-Technology \\
+Amazon Lex & Amazon Lex is a fully managed service for building conversational interfaces using voice and text. 
+It enables the creation of chatbots and virtual assistants by leveraging automatic speech recognition (ASR) 
+and natural language understanding (NLU) to interpret user input. Lex supports integration with AWS Lambda for 
+backend logic and other AWS services like S3, DynamoDB, and CloudWatch. It provides intent recognition, 
+slot filling, and dialog management, and scales automatically based on usage. Lex also supports multi-turn 
+conversations, security through IAM, and encryption at rest and in transit. & MachineLearning-Technology \\
+Amazon Kendra & Amazon Kendra is a fully managed, intelligent search service powered by machine learning, 
+designed to deliver highly accurate, context-aware search results. It uses natural language processing 
+(NLP) to understand user queries and retrieve relevant information from a variety of data sources, 
+including S3, SharePoint, Salesforce, and databases. Kendra provides built-in connectors, document 
+ranking, and supports custom relevance tuning for improved search accuracy. It integrates with 
+AWS services like Lambda for custom workflows, IAM for access control, and offers security 
+with encryption at rest and in transit. & MachineLearning-Technology \\
+Amazon Mechanical Turk & Amazon Mechanical Turk (MTurk) is a fully managed crowdsourcing service that enables 
+businesses to offload tasks requiring human intelligence, such as data labeling, content 
+moderation, and surveys. It connects businesses with a global workforce to complete micro-tasks 
+through a web-based interface. MTurk supports task management, quality control through HITs 
+(Human Intelligence Tasks), and worker performance tracking. It integrates with AWS services 
+like S3, Lambda, and Step Functions for automation and data processing, offering flexible pricing 
+and scalability. MTurk ensures security and compliance through IAM-based access control and encryption. & MachineLearning-Technology \\
+Amazon Polly & Amazon Polly is a fully managed text-to-speech (TTS) service that converts text into 
+lifelike speech using deep learning models. It supports multiple languages and voices, including 
+neural network-based voices for improved naturalness and expressiveness. Polly integrates with AWS services 
+like Lambda and S3 for real-time or batch processing of text, and allows customization of speech 
+output with SSML (Speech Synthesis Markup Language). It provides features like speech marks, lexicons, 
+and streaming audio, and ensures security through IAM access control and encryption at rest and in transit. & MachineLearning-Technology \\
+Amazon Q &  &  \\
+\end{longtable}
+\end{document}
